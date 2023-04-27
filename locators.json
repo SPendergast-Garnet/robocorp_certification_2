@@ -1,0 +1,16 @@
+{
+    "Alert": {
+        "screenshot": ".images\\alert-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "css",
+        "type": "browser",
+        "value": ".alert"
+    },
+    "Legs": {
+        "screenshot": ".images\\legs-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//label[contains(.,'3. Legs:')]/../input"
+    }
+}
